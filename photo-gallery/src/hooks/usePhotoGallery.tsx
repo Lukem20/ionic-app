@@ -77,6 +77,10 @@ export function usePhotoGallery() {
     	};
 		}
   };
+	return {
+		photos,
+		takePhoto,
+	};
 }
 
 export interface UserPhoto {
